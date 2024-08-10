@@ -1,6 +1,6 @@
 import { Router, Request, Response } from 'express'
 
-import db from '../db/db'
+import db from '../db'
 import { users, User } from "../db/schema/user"
 
 export async function getAllUsers() {
